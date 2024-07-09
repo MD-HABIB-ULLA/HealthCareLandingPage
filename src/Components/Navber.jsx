@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 
 const Navber = () => {
   const pathName = usePathname();
-  console.log(pathName);
+
   const lists = [
     { title: "Home", link: "/" },
     { title: "About", link: "/about" },
